@@ -15,23 +15,23 @@ using System.Windows.Shapes;
 
 namespace WpfControls.Pages
 {
-  /// <summary>
-  /// Interaction logic for Templates3Page.xaml
-  /// </summary>
-  public partial class Template3Page : Page
-  {
-    public Template3Page()
+    /// <summary>
+    /// Interaction logic for Templates3Page.xaml
+    /// </summary>
+    public partial class Template3Page : Page
     {
-      InitializeComponent();
-    }
-    private string _dots = ".";
-    private void Button_Click(object sender, RoutedEventArgs e)
-    {
+        public Template3Page()
+        {
+            InitializeComponent();
+        }
+        private string _dots = ".";
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
 
-      MessageTextBlock.Text = $"Clicked the templated button {_dots}";
-      _dots += ".";
-    }
+            MessageTextBlock.Text = $"Clicked the templated button {_dots}";
+            _dots += ".";
+        }
 
-		
-	}
+
+    }
 }

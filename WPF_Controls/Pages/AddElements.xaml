@@ -10,7 +10,16 @@
       mc:Ignorable="d">
 
   <Grid>
+    <TextBox x:Name='textBox'
+             HorizontalAlignment='Left'
+             Height='23'
+             Margin='10,10,0,0'
+             TextWrapping='Wrap'
+             Text='TextBox'
+             VerticalAlignment='Top'
+             Width='120' />
     <!--  XAML elements map to FrameworkElement classes  -->
-    <FrameworkElement />
+
+
   </Grid>
 </Page>
