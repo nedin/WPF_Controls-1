@@ -12,13 +12,18 @@
   <Page.Resources>
     <Style TargetType="Ellipse">
 
-      <Setter Property="Stroke" Value="DarkGray" />
-      <Setter Property="StrokeThickness" Value="5" />
+      <Setter Property="Stroke"
+              Value="DarkGray" />
+      <Setter Property="StrokeThickness"
+              Value="5" />
     </Style>
     <Style TargetType="TextBlock">
-      <Setter Property="FontSize" Value="24" />
-      <Setter Property="HorizontalAlignment" Value="Center" />
-      <Setter Property="VerticalAlignment" Value="Center" />
+      <Setter Property="FontSize"
+              Value="24" />
+      <Setter Property="HorizontalAlignment"
+              Value="Center" />
+      <Setter Property="VerticalAlignment"
+              Value="Center" />
     </Style>
   </Page.Resources>
   <Grid>
@@ -42,6 +47,9 @@
             Visibility="Visible">
         <Ellipse Fill="LightCoral" />
         <TextBlock Text="B" />
+        <Grid.LayoutTransform>
+          <ScaleTransform x:Name="GridTransform" />
+        </Grid.LayoutTransform>
       </Grid>
       <Grid x:Name="Grid3"
             Width="80"

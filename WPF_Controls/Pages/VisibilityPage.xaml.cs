@@ -2,14 +2,14 @@
 
 namespace WpfControls.Pages
 {
-  /// <summary>
-  /// Interaction logic for VisibilityPage.xaml
-  /// </summary>
-  public partial class VisibilityPage : Page
-  {
-    public VisibilityPage()
+    /// <summary>
+    /// Interaction logic for VisibilityPage.xaml
+    /// </summary>
+    public partial class VisibilityPage : Page
     {
-      InitializeComponent();
+        public VisibilityPage()
+        {
+            InitializeComponent();
+        }
     }
-  }
 }

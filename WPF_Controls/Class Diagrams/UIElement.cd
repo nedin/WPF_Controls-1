@@ -1,10 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="System.Windows.UIElement">
+  <Comment CommentText="Apporte les fonctionnalités essentielles à WPF:&#xD;&#xA;&#xD;&#xA;- Layout&#xD;&#xA;- Focus&#xD;&#xA;- Input&#xD;&#xA;- Event handling">
+    <Position X="9.625" Y="0.812" Height="2.115" Width="3.658" />
+  </Comment>
+  <Class Name="System.Windows.UIElement" Collapsed="true">
     <Position X="5" Y="0.5" Width="3.25" />
     <Compartments>
       <Compartment Name="Fields" Collapsed="true" />
-      <Compartment Name="Methods" Collapsed="true" />
       <Compartment Name="Events" Collapsed="true" />
       <Compartment Name="Properties" Collapsed="true" />
     </Compartments>

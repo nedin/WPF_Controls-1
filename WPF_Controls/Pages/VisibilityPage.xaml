@@ -28,7 +28,6 @@
     </Grid.ColumnDefinitions>
 
     <StackPanel Grid.Column="0">
-
       <Grid x:Name="Grid1">
         <Ellipse Fill="LightSteelBlue" />
         <TextBlock Text="A" />
@@ -42,5 +41,6 @@
         <TextBlock Text="C" />
       </Grid>
     </StackPanel>
+
   </Grid>
 </Page>

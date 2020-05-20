@@ -40,7 +40,7 @@
         <Ellipse Fill="LightCoral" />
         <TextBlock Text="Args" />
       </Grid>
-      <Grid x:Name="GridC"
+      <Grid x:Name="GridC" Background="FloralWhite"
             MouseMove="GridC_MouseMove">
         <Ellipse Fill="LightSteelBlue" />
         <TextBlock Text="Move" />
