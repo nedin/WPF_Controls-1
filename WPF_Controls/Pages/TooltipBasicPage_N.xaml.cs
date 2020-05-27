@@ -3,16 +3,19 @@ using System.Windows.Controls;
 
 namespace WpfControls.Pages
 {
-    public partial class TooltipBasicPage : Page
+    /// <summary>
+    /// Interaction logic for TooltipBasicPage_N.xaml
+    /// </summary>
+    public partial class TooltipBasicPage_N : Page
     {
-        public TooltipBasicPage()
+        public TooltipBasicPage_N()
         {
             InitializeComponent();
         }
 
         private void Image_ToolTipOpening(object sender, ToolTipEventArgs e)
         {
-            Image currentImage = sender as Image;
+            var currentImage = sender as Image;
 
             if (currentImage != null)
             {

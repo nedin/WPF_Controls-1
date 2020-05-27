@@ -14,24 +14,28 @@
                       Cursor="../Busy.ani" />
     <Style TargetType="Rectangle">
 
-      <Setter Property="Stroke" Value="DarkGray" />
-      <Setter Property="StrokeThickness" Value="3" />
-
+      <Setter Property="Stroke"
+              Value="DarkGray" />
+      <Setter Property="StrokeThickness"
+              Value="3" />
     </Style>
     <Style TargetType="TextBlock">
-      <Setter Property="Foreground" Value="White" />
-      <Setter Property="HorizontalAlignment" Value="Center" />
-
-      <Setter Property="VerticalAlignment" Value="Bottom" />
-
+      <Setter Property="Foreground"
+              Value="White" />
+      <Setter Property="HorizontalAlignment"
+              Value="Center" />
+      <Setter Property="VerticalAlignment"
+              Value="Bottom" />
     </Style>
   </Page.Resources>
   <UniformGrid Columns="5"
                Rows="4">
 
-    <Grid Cursor="AppStarting">
+    <Grid Cursor="AppStarting"
+          ForceCursor="True">
       <Rectangle Fill="SteelBlue" />
-      <TextBlock Text="AppStarting" />
+      <TextBlock Text="AppStarting"
+                 Cursor="Hand" />
     </Grid>
     <Grid Cursor="Arrow">
       <Rectangle Fill="LightCoral" />
@@ -53,7 +57,6 @@
       <Rectangle Fill="LightCoral" />
       <TextBlock Text="Help" />
     </Grid>
-
     <Grid Cursor="IBeam">
       <Rectangle Fill="SteelBlue" />
       <TextBlock Text="IBeam" />

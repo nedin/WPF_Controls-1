@@ -14,8 +14,14 @@
     <menu header ="Basic Tooltip"
          page="/Pages/TooltipBasicPage.xaml" />
 
+    <menu header ="Basic Tooltip Ned"
+     page="/Pages/TooltipBasicPage_N.xaml" />
+
     <menu header ="Enhanced Tooltip"
         page="/Pages/TooltipEnhancedPage.xaml" />
+    
+    <menu header ="Enhanced Tooltip Ned"
+        page="/Pages/TooltipEnhancedPage_N.xaml" />
   </category>
 
   <category categoryName="Size Members">
@@ -23,13 +29,22 @@
     <menu header ="Size vs. Actual Size"
          page="/Pages/SizesPage.xaml">
     </menu>
+    <menu header ="Size vs. Actual Size Ned"
+     page="/Pages/SizesPage_N.xaml">
+    </menu>
     <menu header ="Minimum and Maximum Size"
         page="/Pages/MinMaxPage.xaml">
     </menu>
+    <menu header ="Minimum and Maximum Size Ned"
+    page="/Pages/MinMaxPage_N.xaml">
+    </menu>
     <menu header ="Alignment"
            page="/Pages/AlignmentPage.xaml" />
+    <menu header ="Alignment Ned"
+       page="/Pages/AlignmentPage_N.xaml" />
     <menu header ="Margin"
 					page="/Pages/MarginPage.xaml" />
     
   </category>
+
 </menus>

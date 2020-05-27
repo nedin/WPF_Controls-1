@@ -60,17 +60,29 @@
     <Compile Include="Pages\AlignmentPage.xaml.cs">
       <DependentUpon>AlignmentPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AlignmentPage_N.xaml.cs">
+      <DependentUpon>AlignmentPage_N.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\MinMaxPage.xaml.cs">
       <DependentUpon>MinMaxPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\MinMaxPage_N.xaml.cs">
+      <DependentUpon>MinMaxPage_N.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\SizesPage.xaml.cs">
       <DependentUpon>SizesPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SizesPage_N.xaml.cs">
+      <DependentUpon>SizesPage_N.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\TooltipBasicPage.xaml.cs">
       <DependentUpon>TooltipBasicPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\CursorsPage.xaml.cs">
       <DependentUpon>CursorsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\TooltipBasicPage_N.xaml.cs">
+      <DependentUpon>TooltipBasicPage_N.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\TooltipEnhancedPage.xaml.cs">
       <DependentUpon>TooltipEnhancedPage.xaml</DependentUpon>
@@ -81,11 +93,17 @@
     <Compile Include="Pages\StartHere.xaml.cs">
       <DependentUpon>StartHere.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\TooltipEnhancedPage_N.xaml.cs">
+      <DependentUpon>TooltipEnhancedPage_N.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\TouchEventsPage.xaml.cs">
       <DependentUpon>TouchEventsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserControls\MarginMaster.xaml.cs">
       <DependentUpon>MarginMaster.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MarginMaster_N.xaml.cs">
+      <DependentUpon>MarginMaster_N.xaml</DependentUpon>
     </Compile>
     <Compile Include="XmlMenu\XmlCategory.cs" />
     <Compile Include="XmlMenu\XmlExtraFile.cs" />
@@ -94,11 +112,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\AlignmentPage_N.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\MinMaxPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\MinMaxPage_N.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\SizesPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SizesPage_N.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -107,6 +137,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\CursorsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\TooltipBasicPage_N.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -119,6 +153,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\StartHere.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\TooltipEnhancedPage_N.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -146,6 +184,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="UserControls\MarginMaster.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControls\MarginMaster_N.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

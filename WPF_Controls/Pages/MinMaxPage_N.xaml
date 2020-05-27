@@ -1,0 +1,40 @@
+﻿<Page x:Class="WpfControls.Pages.MinMaxPage_N"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:WpfControls.Pages"
+      mc:Ignorable="d"
+      d:DesignHeight="300"
+      d:DesignWidth="400"
+      Title="MinMaxPage">
+
+  <Grid>
+    <StackPanel Grid.RowSpan="2"
+                HorizontalAlignment="Left">
+      <TextBlock Text="MinWidth = 120" />
+      <Button x:Name="ButtonMinWidth"
+              Content="123456789"
+              MinWidth="120"
+              HorizontalAlignment="Left"
+              HorizontalContentAlignment="Left" />
+
+      <TextBlock Text="MaxWidth = 240"
+                 Margin="0,20,0,0" />
+      <Button x:Name="ButtonMaxWidth"
+              Content="The quick  "
+              MaxWidth="240"
+              HorizontalAlignment="Left"
+              HorizontalContentAlignment="Left" />
+      <Button x:Name="AddLetters"
+              MinWidth="120"
+              Content="Add Letters"
+              Margin="0,40,0,0"
+              Click="AddLetters_Click" />
+      <Button x:Name="RemoveLetters"
+              MinWidth="120"
+              Content="Remove Letters"
+              Click="RemoveLetters_Click" />
+    </StackPanel>
+  </Grid>
+</Page>
